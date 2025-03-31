@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1;
+    padding-top: 1rem;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    margin-bottom: 6rem;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    
+}
+.btn {
+    background-color: hsl(0, 0%, 95%);
+    
+    border: none;
+    border-radius: 40px;
+    padding: 15px 36px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+
+}
+.btn-orange {
+    color: hsl(31, 77%, 52%);
+}
+.btn-dark-cyan {
+    color: hsl(184, 100%, 22%);
+}
+.btn-very-dark-cyan {
+    color: hsl(179, 100%, 13%);
+}
+.container-orange {
+    background-color: hsl(31, 77%, 52%);
+    
+  }
+  .container-very-dark-cyan {
+    background-color: hsl(179, 100%, 13%);
+  }
+  .container-dark-cyan {
+    background-color: hsl(184, 100%, 22%);
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 18dvw);
+    gap: 0px;
+    grid-template-rows: 60dvh;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  .container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 60px; 
+    position: relative;
+    
+  }
+  img {
+    position: absolute;
+    top: 3rem;
+    
+  }
